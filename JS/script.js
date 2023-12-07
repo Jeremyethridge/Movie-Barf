@@ -9,13 +9,12 @@ $(document).ready(function() {
 
 // API Call to get Now Playing Movies from the Movie DB database
 function getNowPlayingMovies() {
-    var nowPlayingURL = 'https://api.themoviedb.org/3/movie/now_playing?api_key=3d41be2de60c62ec063c22571cdc0634';
-    var apiKey = '3d41be2de60c62ec063c22571cdc0634';
+    var apiKey = '1f908df6e080074acf5a2bb1d5b1d233';
+    var apiEndpoint = 'https://api.themoviedb.org/3/movie/now_playing';
 
-    fetch (nowPlayingURL, {
+    fetch(apiEndpoint + '?api_key=' + apiKey, {
         headers: {
-            'Authorization': 'Bearer ' + apiKey,
-            'accept': 'application/json'
+            'Accept': 'application/json'
         }
     })
     .then(function(response) {
@@ -25,9 +24,9 @@ function getNowPlayingMovies() {
         processMovieData(data);
     })
     .catch(function(error) {
-        console.error('Error fecthing now playing movies', error);
+        console.error('Error fetching now playing movies', error);
     });
-};
+}
 
 // Processes the API call data into dynamic posters to show i posters
 function processMovieData(data) {
@@ -88,6 +87,7 @@ var searchSubmit = function (event) {
 // Loads buttons from LocalStorage from previous searches
 function loadButtonsFromLocalStorage() {
     var savedButtons = localStorage.getItem('buttons');
+    e.preventDefault();
 
     if (savedButtons) {
         buttons = JSON.parse(savedButtons);
