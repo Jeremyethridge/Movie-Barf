@@ -7,8 +7,8 @@ The TheMovieDB API is used to pull the plot descriptions.
 Client-side local storage is used to capture the search history.
 Tailwind CSS was used for our framework (along with some specific CSS in a separate file).
 
- [Click Here To View Application!](https://jeremyethridge.github.io/Movie-Barf/)
-![Project1](https://github.com/Jeremyethridge/Movie-Barf/assets/128623643/c1f993df-cc13-432c-8473-62b0bf659a3c)
+
+![Screenshot](./Images/Screenshot.png)
 
 ## User story:
 As a movie enthusiast, I want to easily find currently playing movies, along with their ratings, so that I can plan my movie-watching experience effectively.

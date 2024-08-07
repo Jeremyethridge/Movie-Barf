@@ -1,14 +1,14 @@
-.movie-container {
+ .movie-container {
     display: flex; 
-    overflow-x: auto;
+    overflow-x: hidden;
     white-space: nowrap;
-    height: 24em;
+    height: 26em;
 }
 
 .movie-card {
     min-width: 200px;
     padding: 2px;
-    margin-right: 10px;
+    margin-right: 45px;
 }
 
 .movie-card img {
@@ -41,4 +41,4 @@
     margin-left: 5px;
     color: white;
     margin-top: 5px;
-}
+} 
