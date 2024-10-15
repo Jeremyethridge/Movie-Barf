@@ -1,14 +1,15 @@
 # Movie Barf
 
 ## Project description:
-Our group project aims to develop an innovative application that revolutionizes the way movie enthusiasts explore and access local movie showtimes. With the integration of prominent APIs such as OMDB and TheMovieDB, our application provides users with a comprehensive and user-friendly platform to discover and enjoy movies. The key feature of our application is the ability to display "Now Playing" movies, and after searching by movie name, generating the plot synopsis. By leveraging the OMDB API, we ensure that users have a visual display of "Now Playing" movies, complete with title and user ratings. This feature empowers moviegoers to easily find movies they are interested in and plan their entertainment accordingly.
+Our group project aims to develop an innovative application that revolutionizes the way movie enthusiasts explore and access local movie showtimes. With the integration of the API, TheMovieDB, our application provides users with a comprehensive and user-friendly platform to discover and enjoy movies. The key feature of our application is the ability to display "Now Playing" movies, and after searching by movie name, generating the plot synopsis. By leveraging the OMDB API, we ensure that users have a visual display of "Now Playing" movies, complete with title and user ratings. This feature empowers moviegoers to easily find movies they are interested in and plan their entertainment accordingly.
 The OMDB API is used to power the "Now Playing" on-load banner of movies.
 The TheMovieDB API is used to pull the plot descriptions.
 Client-side local storage is used to capture the search history.
 Tailwind CSS was used for our framework (along with some specific CSS in a separate file).
 
+[Movie Barf](https://moviebarf.netlify.app/)
+![Project1](https://github.com/user-attachments/assets/b5234738-2f75-4714-aaa8-4f9aa67556ff)
 
-![Screenshot](./Images/Screenshot.png)
 
 ## User story:
 As a movie enthusiast, I want to easily find currently playing movies, along with their ratings, so that I can plan my movie-watching experience effectively.
